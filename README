@@ -1,0 +1,3 @@
+A suite of tools for thin provisioning on Linux.
+
+Requires the g++ and expat libraries to build.
