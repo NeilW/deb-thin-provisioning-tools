@@ -1,0 +1,5 @@
+thin-provisioning-tools (0.1.5-1) unstable; urgency=low
+
+  * Initial release (Closes: #690693)
+
+ -- Neil Wilson <neil@aldur.co.uk>  Wed, 17 Oct 2012 11:51:37 +0100

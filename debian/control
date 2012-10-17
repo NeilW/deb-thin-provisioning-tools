@@ -1,0 +1,24 @@
+Source: thin-provisioning-tools
+Section: admin
+Priority: optional
+Maintainer: Neil Wilson <neil@aldur.co.uk>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, libexpat1-dev, libboost1.46-dev
+Standards-Version: 3.9.3
+Homepage: https://github.com/jthornber/thin-provisioning-tools
+Vcs-Git: git://github.com/NeilW/deb-thin-provisioning-tools.git
+Vcs-Browser: https://github.com/NeilW/deb-thin-provisioning-tools
+
+Package: thin-provisioning-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: lvm2 (>= 2.02.89)
+Description: tools to manage thinly provisioned volume metadata in LVM
+ This package installs check, dump and restore tools that manage and
+ manipulate the thin provisioning metadata in LVM. The check tool ensures
+ that the metadata is consistent and is called by the LVM userspace
+ tools when a thinly provisioned volume is activated.
+ .
+ Thin provisioning is a feature of the Device Mapper supported by recent
+ versions of the LVM userspace tools. It allows a single logical volume
+ to be a pool of storage for many virtual devices - allocating actual
+ space to the virtual volumes on demand.

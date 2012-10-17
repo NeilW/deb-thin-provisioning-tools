@@ -1,0 +1,6 @@
+# See uscan(1) for format
+
+# Compulsory line, this is a version 3 file
+version=3
+
+ https://github.com/jthornber/thin-provisioning-tools/downloads .+/thin-provisioning-tools-v(.+)\.tar\.bz2
