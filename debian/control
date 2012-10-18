@@ -2,7 +2,7 @@ Source: thin-provisioning-tools
 Section: admin
 Priority: optional
 Maintainer: Neil Wilson <neil@aldur.co.uk>
-Build-Depends: debhelper (>= 8.0.0), autotools-dev, libexpat1-dev, libboost1.46-dev
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, libexpat1-dev, libboost-dev
 Standards-Version: 3.9.3
 Homepage: https://github.com/jthornber/thin-provisioning-tools
 Vcs-Git: git://github.com/NeilW/deb-thin-provisioning-tools.git
